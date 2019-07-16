@@ -18,7 +18,7 @@ var qarr = [];
 var aarr1 = [];
 var aarr2 = [];
 
-qarr.push('Q: ' + 'I have opted for PCME.. what are the career options???');
+qarr.push('Q: ' + 'I have opted for PCME.. what are the career options');
 aarr1.push('A: ' +  'Well very few people are aware about the PCME group i.e Physics,Chemistry,Mathematics and Electronics. Alike of PCME there is also a group' + '  ...');
 aarr2.push('A: ' + 'Well very few people are aware about the PCME group i.e Physics,Chemistry,Mathematics and Electronics. Alike of PCME there is also a group of PCMC - Physics, Chemistry, Mathematics and Computer Science; BCME- Biology,Chemistry,Mathematics and Electronics. These are the further education options that are available for the students after 10+');
 
