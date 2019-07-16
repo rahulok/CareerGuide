@@ -1,0 +1,174 @@
+body{
+	background-image: url(../images/images/documentbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+/*-------------------------------------Main head------------------------------------------- */
+.jumbotron{
+	margin: 0;
+	background: url(../images/a2.jpg) no-repeat;
+}
+
+.mainHead a{
+	display: block;
+	width: 7%;
+	color: white;
+	background-color: #3BF44F;
+	text-decoration: none;
+	transition: background-color .7s;
+}
+
+.mainHead a:hover{
+	background-color: #08B81B;
+}
+
+
+/*-----------------------------------------------------NavBar--------------------------------------*/
+.navbar{
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	float: left;
+}
+
+.navbar a{
+	color: white;
+	padding: 0 75px;
+	text-decoration: none;
+	transition: background-color   0.7s;
+}
+
+.navbar a:hover{
+	background-color: #0bbc08;
+	color: white;
+}
+
+/*----------------------------------------------------------Login------------------------------------*/
+.login{
+	height: 200px;
+	background: url(../images/back1.jpg);
+	background-size: cover;
+	background-position: 0 -45%;
+	/*transition: all 1s;*/
+}
+
+/*.login:hover{
+	transition: all 1s;
+	background-size: 150%;
+}*/
+
+.login h3{
+	text-align: center;
+	color: white;
+	margin-top: 2%;
+}
+.login .question{
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.login .question input{
+	width: 100%;
+}
+
+.login .button{
+	position: absolute;
+	left: 50%;
+}
+
+/*----------------------------------------Menu--------------------------------------------------*/
+.menu{
+	overflow: hidden;
+	text-align: center;
+	background: url(../images/how.jpg);
+}
+
+
+.menu button{
+	transition: all .5s;
+}
+
+.menu .graduated:hover{
+	transform: scale(1.1);
+}
+.menu .interview:hover{
+	transform: scale(1.1);
+}
+.menu .tenthpass:hover{
+	transform: scale(1.1);
+}
+.menu .questions:hover{
+	transform: scale(1.1);
+}
+.menu .twpass:hover{
+	transform: scale(1.1);
+}
+.menu .register:hover{
+	transform: scale(1.1);
+}
+
+
+/*-------------------------------------------CareerCounsellor---------------------------------------*/
+.careerCounselor{
+	text-align: center;
+	background: url(../images/a6.jpg);
+	background-size: cover;
+}
+
+.careerCounselor .heading, .careerCounselor .examples{
+	color: white;
+	font-size: 30px;
+}
+
+.careerCounselor .row1 img{
+	width: 55%;
+	height: 25%;
+	margin-bottom: 3px;
+	border-radius: 3px;
+}
+
+.careerCounselor .name{
+	color: white;
+}
+.careerCounselor .post{
+	color: #cbbf5a;
+}
+.careerCounselor .exp{
+	color: white;
+}
+
+/*-----------------------------------------------Examples------------------------------------------*/
+
+
+/*-------------------------------------------questionGuide---------------------------------------*/
+
+.questionGuide{
+	text-align: center;
+	background: url(../images/a2.jpg);
+}
+
+
+/*-------------------------------------------Videos---------------------------------------*/
+
+
+/*-------------------------------------------Footer---------------------------------------*/
+.footer{
+	background: url(../images/back7.jpg);
+	text-align: center;
+	background-size: cover;
+	color: white;
+}
+
+.footernav{
+	width: 100%;
+}
+
+.footer .row{
+	padding: 1% 10% 0 10%;
+}

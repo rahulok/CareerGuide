@@ -1,0 +1,31 @@
+html,body{
+	background:url(../images/back5.jpg) no-repeat;
+	background-size: cover;
+}
+
+.jumbotron{
+	margin: 0;
+	background: url(../images/a2.jpg) no-repeat;
+}
+
+/*---------------------------------------videos------------------------------------*/
+.row{
+	border-bottom: 1px solid black;
+	padding: 20px 50px;
+}
+
+/*-----------------------------footer----------------------------------------*/
+.footer{
+	background: url(../images/back7.jpg);
+	text-align: center;
+	background-size: cover;
+	color: white;
+}
+
+.footernav{
+	width: 100%;
+}
+
+.footer .row{
+	padding: 1% 10% 0 10%;
+}

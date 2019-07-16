@@ -1,0 +1,44 @@
+body{
+	background-image: url(../images/images/documentbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.jumbotron{
+	margin: 0;
+	background: url(../images/a2.jpg) no-repeat;
+}
+
+.questionBar{
+	background-image: linear-gradient(to bottom, white, #00bcd485);
+}
+
+.otherQuestions{
+	background: url(../images/images/back2.jpg);
+	background-size: cover;
+	color: black;
+	font-size: 14px;
+}
+
+.otherQuestions .q{
+	margin-bottom: 0;
+}
+
+.otherQuestions .col-sm{
+	border-bottom: 1px solid black;
+	padding: 5px;
+}
+
+/*-------------------------------------------Footer---------------------------------------*/
+.footer{
+	background-color: #91FB9D;
+	text-align: center;
+}
+
+.footernav{
+	width: 100%;
+}
+
+.footer .row{
+	padding: 1% 10% 0 10%;
+}

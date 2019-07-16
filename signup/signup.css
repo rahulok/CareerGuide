@@ -1,0 +1,55 @@
+body{
+	background: url(../images/back2.jpg);
+	background-size: cover;
+}
+
+
+.jumbotron{
+	margin: 0;
+	background: url(../images/a2.jpg) no-repeat;
+}
+
+form{
+	width: 50%;
+	margin-left: 50%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.heading{
+	color: black;
+	text-shadow: 2px 2px 3px #67d7d6;
+}
+
+input,.data button{
+	margin: 6px 0;
+	width: 60%;
+	border: 1px solid #878f86;
+	border-radius: 5px; 
+	padding: 2px;
+}
+
+.data button{
+	margin: 0 20%;
+	width: 20%;
+}
+
+.name,.surname{
+	width: 30%;
+}
+
+
+.footer{
+	background: url(../images/back7.jpg);
+	text-align: center;
+	background-size: cover;
+	color: white;
+}
+
+.footernav{
+	width: 100%;
+}
+
+.footer .row{
+	padding: 1% 10% 0 10%;
+}

@@ -1,0 +1,39 @@
+body{
+	background: url(../images/q.jpg);
+	background-size: cover;
+}
+
+.jumbotron{
+	margin: 0;
+	background: url(../images/a2.jpg) no-repeat;
+}
+
+ul{
+	list-style-type: circle;
+}
+
+.olli{
+	font-size: 120%;
+}
+
+.data{
+	border: 2px solid black;
+	width: 70%;
+	margin: 30px 15%;
+	border-radius: 3px; 	
+}
+
+.footer{
+	background: url(../images/back7.jpg);
+	text-align: center;
+	background-size: cover;
+	color: white;
+}
+
+.footernav{
+	width: 100%;
+}
+
+.footer .row{
+	padding: 1% 10% 0 10%;
+}

@@ -1,0 +1,40 @@
+body{
+	background: url(../images/a5.jpg);
+	background-size: cover;
+}
+
+/*------------------------------------------Main Head----------------------------------------------*/
+
+.jumbotron{
+	margin: 0;
+	background: url(../images/a2.jpg) no-repeat;
+}
+
+/*-------------------------------------------About Content-------------------------------------------*/
+
+.team{
+	margin-left: 12%;
+	margin-right: 12%;
+	margin-bottom: 3px;
+}
+
+.team img{
+	height: 45%;
+	width: 40%;
+}
+
+/*-----------------------------------------footer------------------------------------------------------*/
+.footer{
+	background: url(../images/back7.jpg);
+	text-align: center;
+	background-size: cover;
+	color: white;
+}
+
+.footernav{
+	width: 100%;
+}
+
+.footer .row{
+	padding: 1% 10% 0 10%;
+}
