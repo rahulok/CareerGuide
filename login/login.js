@@ -1,20 +1,32 @@
-console.log('OK');
+// const fs = require('fs');
 
 var login = document.getElementById('li');
 var signup = document.getElementById('su');
 var logininput = document.getElementById('email');
+var passwordinput = document.getElementById('pass');
 
+logininput.focus();
+console.log('OK');
+
+// var addloginid = function(){
+// 	var idobj = {
+// 		id: logininput.value,
+// 		password: passwordinput.value,
+// 	}
+// 	idobj = JSON.stringify(idobj);
+// 	fs.writeFileSync('logininids.json',idobj);
+// 	console.log('Data input done');
+// }
 
 document.addEventListener('keypress',function(event){
 	if(event.keyCode === 13)
-		alert('BacnkEnd not yet done!');
+		// addloginid();
+		alert('Backend not done');
 });
 
-logininput.focus();
-
-
 login.addEventListener('click',function(){
-	alert('BacnkEnd not yet done!');
+	// addloginid();
+	alert('Backend Not done')
 });
 
 signup.addEventListener('click',function(){
